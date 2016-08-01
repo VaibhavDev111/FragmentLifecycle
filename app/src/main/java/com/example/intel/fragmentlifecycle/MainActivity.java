@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        // init views
         addFirst = (Button) findViewById(R.id.addfirst);
         addSecond = (Button) findViewById(R.id.addsecond);
         removeFirst = (Button) findViewById(R.id.removeFirst);
