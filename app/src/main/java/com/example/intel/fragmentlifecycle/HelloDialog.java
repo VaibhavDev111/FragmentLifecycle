@@ -38,13 +38,11 @@ public class HelloDialog extends DialogFragment {
         Log.i("vabhi", "onCreate Dialog");
     }
 
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         Log.i("vabhi","onCreateView Dialog");
         View view = inflater.inflate(R.layout.fragment_hello_dialog, container, false);
-
         textView = (TextView) view.findViewById(R.id.textViewHello);
         textView.setOnClickListener(new View.OnClickListener() {
             @Override
